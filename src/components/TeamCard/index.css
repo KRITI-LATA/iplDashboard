@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.team-container {
+  width: 50%;
+}
+.link-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff33;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 90%;
+  box-shadow: 2px;
+}
+.link-image {
+  width: 60px;
+  height: 60px;
+}
+.team-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+}
+@media screen and (max-width: 576px) {
+  .link-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .link-data {
+    margin-right: 10px;
+    height: 95%;
+  }
+  .team-heading {
+    font-size: 15px;
+  }
+}
